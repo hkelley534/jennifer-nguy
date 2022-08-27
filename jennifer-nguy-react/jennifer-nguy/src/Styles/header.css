@@ -43,6 +43,7 @@ a {
 /* Navigation Bar */
 #navigation-bar {
     display: flex;
+    align-items: center;
     right: 0;
     flex-grow: 1;
 }
@@ -57,14 +58,17 @@ a {
     justify-content: center;
     margin: 0;
     right: 0;
+    top: 0;
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     list-style: none;
+    z-index: 2;
 }
 
-.nav-elem {
+.nav-elem a{
     margin:0%;
     z-index: 2;
+    background-color: black;
 }
 .nav-elem a h1{
     color: var(--primary_color);
@@ -72,7 +76,7 @@ a {
 }
 
 #nav-button {
-    margin: 10% 10% 0 auto;
+    margin: 0 10% 0 auto;
     color: var(--secondary_color);
     z-index: 3;
 }

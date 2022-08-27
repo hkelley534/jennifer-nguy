@@ -20,7 +20,7 @@ function Header() {
           {/* Home Logo */}
           <div id="header-logo">
             <a href="index.html">
-                <img id="header-logo-img" src={header_logo} alt="logo"></img>
+                <img id="header-logo-img" src={header_logo} alt="logo" />
             </a>
           </div>
           {/* Navigation Bar */}

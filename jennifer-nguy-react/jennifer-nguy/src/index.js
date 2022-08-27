@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './Styles/index.css';
+// import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import WebFont from 'webfontloader';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import './Styles/index.css';
+
+WebFont.load({
+  google: {
+    families: ['Questrial, Junge', 'sans-serif, serif']
+  }
+})
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
