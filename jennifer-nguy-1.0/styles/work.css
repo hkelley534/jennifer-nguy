@@ -1,0 +1,33 @@
+h1 {
+    font-family: "Junge", serif;
+}
+
+/* Work */
+#work-container {
+    width: 90vw;
+    height: auto;
+    padding: 112px 5vw 224px 5vw;
+}
+
+#work-title {
+    display: flex;
+    justify-content: center;
+}
+
+#work-title h1 {
+    font-size: 8em;
+}
+
+/* Works Row */
+.work-row {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Works Cell */
+.work-img {
+    justify-content: center;
+    width: 25%;
+    padding: 50px;
+}

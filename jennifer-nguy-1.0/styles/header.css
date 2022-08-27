@@ -1,0 +1,70 @@
+/* Website Colors */
+:root {
+    --primary_color: #FFFBF5;
+    --secondary_color: #222222;
+    --accent_color: rgb(228,97,157);
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary_color);
+    font-size: 10px;
+}
+
+h1 {
+    color: var(--secondary_color);
+    font-family: "Junge", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+#header-container {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    color: var(--primary_color);
+    background-color: var(--primary_color);
+}
+
+/* Header Logo */
+#header-logo {
+    margin: 5px 0px;
+    margin-left: 2%;
+}
+
+#header-logo-img {
+    height: 100px;
+}
+
+/* Navigation Bar */
+#navigation-bar {
+    display: flex;
+    margin: 0% 4%;
+    justify-content: right;
+    flex-grow: 1;
+}
+
+.nav-elem {
+    padding: 5px 4%;
+}
+
+#nav-contact {
+    padding: 5px 0px 5px 3%;
+}
+
+#navigation-bar h1 {
+    font-size: 2.5em;
+}
+
+#navigation-bar h1:hover {
+    color: rgb(228,97,157);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+

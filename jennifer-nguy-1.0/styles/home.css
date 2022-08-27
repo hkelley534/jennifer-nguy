@@ -1,0 +1,149 @@
+
+/* Introduction */
+#introduction {
+    max-width: 100vw;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0 10vw;
+}
+
+#intro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-title {
+    display: flex;
+}
+
+#intro-title h1 {
+    font-size: 8em;
+    margin: 0;
+}
+
+
+#intro-description {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#intro-description h1 {
+    font-size: 3em;
+    font-family: "Questrial", sans-serif;
+    margin: 5% 0%;
+}
+
+#intro-about {
+    margin-top: 2%;
+}
+
+/* About Button */
+.about-button {
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 50%;
+    font-size: 3em;  
+    padding: 3%;
+}
+
+.about-button:hover {
+    color: rgb(228,97,157);
+}
+
+/* Introduction Image */
+#intro-img {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    min-width: 250px;
+}
+
+#lotus-img {
+    width: 100%;
+}
+
+/* Works Section */
+#works {
+    width: 90vw;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+}
+
+#works h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 5em;
+}
+
+#works h2 {
+    font-family: "Questrial", sans-serif;
+    font-size: 3em;
+}
+
+#works-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#works-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+
+/* Works Container */
+.works-div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.works-description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+}
+
+.works-image {
+    width: 100%;
+    height: 100%
+}
+
+.works-image img {
+    width: 100%;
+    height: 100%;
+    max-height: 1000px;
+}
+
+/* Works Button */
+#works-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.works-button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    border-radius: 50%; 
+    padding: 0% 1%;
+}
+
+.works-button:hover {
+    color: rgb(228,97,157);
+}
