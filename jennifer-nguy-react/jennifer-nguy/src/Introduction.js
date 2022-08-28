@@ -9,15 +9,14 @@ function Introduction() {
             <div id="intro-text">
                 {/*  Intro Title  */}
                 <div id="intro-title">
-                    <h1>
-                        Jennifer Nguy
-                    </h1>
+                    <h1>Jennifer Nguy</h1>
                 </div>
                 {/*  Intro Description  */}
                 <div id="intro-description">
-                    <h1>VISUAL ARTIST</h1>
+                    {/* <h1>VISUAL ARTIST</h1>
                     <h1>+</h1>
-                    <h1>DESIGNER</h1>
+                    <h1>DESIGNER</h1> */}
+                    <h1>VISUAL ARTIST + DESIGNER</h1>
                 </div>
                 {/*  About Link  */}
             </div>

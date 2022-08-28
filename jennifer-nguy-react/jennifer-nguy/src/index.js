@@ -8,7 +8,7 @@ import './Styles/index.css';
 
 WebFont.load({
   google: {
-    families: ['Questrial, Junge', 'sans-serif, serif']
+    families: ['Junge', 'Questrial']
   }
 })
 
