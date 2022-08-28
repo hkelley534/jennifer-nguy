@@ -1,18 +1,20 @@
 import React from 'react';
-import MobileNavigation from './MobileNavigation';
-import Introduction from './Introduction';
-import Works from './Works';
+// import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import ReactDOM from 'react-dom';
+import { Route, Switch, BrowserRouter} from 'react-router-dom';
+import Home from './Home'
 
 function App() {
   return (
-    <div className="App">
-      <MobileNavigation />
-      <main>
-        <Introduction />
-        <Works />
-      </main>
+    <BrowserRouter basename="/index.html">
+      <div className="App">
+            <Route path="/index.html">
+              <Home />
+            </Route>
 
-    </div>
+
+      </div>
+    </BrowserRouter>
   );
 }
 

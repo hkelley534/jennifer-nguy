@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
 import WebFont from 'webfontloader';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
